@@ -9,6 +9,7 @@ typedef struct node
 
 int get_int(void);
 
+// list aponta para o número, novo node é criado e o número é atualizado, next aponta pro mesmo lugar na memória que list e list é atualizado pra apontar para n
 int main(void)
 {
   node* list = NULL;
